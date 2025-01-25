@@ -3,7 +3,9 @@
 #### Description: A simple anagram solver, validating each input via JSON and API dictionaries to provide anagrmas and their definitions
 #### Command: flask run
 
-This was a personal project to utilise React and JSX in a simple web application, whilst also applying well-considered logic to reduce running times to O(1). As well as featuring use of React hooks and states to define the page content, the styling is written in a Sass file (.scss) to allow for clean code and efficient changes. The user can input any combination of characters, up to a maximum of 13, and within 2 seconds the results, if any, will be listed alongside the top results of their dictionary definitions.
+This Anagrammer Slammer is a simple anagram solver. The user can input any combination of characters, up to a maximum of 13, and within 2 seconds the results, if any, will be listed alongside the top selection of their dictionary definitions.
+
+This was a personal project to utilise React and JSX in a simple web application, whilst also applying well-considered logic to reduce running times to O(1). As well as featuring use of React hooks and states to define the page content, the styling is written in a Sass file (.scss) to allow for clean code and efficient changes. Given the light-weight nature of the web application I have used Flask as the framework. 
 
 Key files in this application are as follows:
 
