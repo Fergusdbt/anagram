@@ -1,0 +1,68 @@
+#results, h1, #search, #title {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+#title {
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 50px;
+  color: SteelBlue;
+}
+
+#search {
+  font-family: "Courier New";
+  margin-top: 25px;
+  font-size: 25px;
+}
+#search input {
+  width: 350px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+#search button {
+  margin-left: 15px;
+  background-color: SteelBlue;
+  border: solid 1px SteelBlue;
+  border-radius: 10px;
+  color: white;
+}
+#search button:hover {
+  background-color: SteelBlue;
+  font-weight: bold;
+  color: white;
+}
+#search button:active {
+  background-color: white;
+  font-weight: bold;
+  color: SteelBlue;
+}
+
+h1 {
+  font-family: "Courier New";
+  margin-top: 100px;
+}
+
+#results {
+  flex-direction: column;
+  margin-top: 50px;
+  width: 80%;
+}
+
+#results .row {
+  justify-content: left;
+  margin-top: 20px;
+}
+#results .row .word {
+  font-weight: bold;
+  font-size: 50px;
+  color: SteelBlue;
+}
+#results .row .definitions {
+  justify-content: left;
+  font-family: "Courier New";
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=styles.css.map */
